@@ -1,0 +1,119 @@
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgb(187, 208, 226);
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid aliceblue;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.texto-sobre{
+    font-family: 'Sarala', sans-serif;
+    font-size: 19px; 
+    color: aliceblue; 
+    padding-top: 50px;
+}
+
+.botao-linkedin{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    border: none;
+}
+
+
+.quadrado-principal{ 
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 225px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.nome-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

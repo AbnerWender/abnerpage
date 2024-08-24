@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Sarala:wght@400;700 & display=swap');
+@import url(teamplates/header.css);
+@import url(teamplates/body.css);
+@import url(teamplates/main.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.rodape{
+    height: 50px;
+    padding: 32px;
+    border-top: 0.4px solid aliceblue;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.rodape-form{
+    height: 0.5%;
+    width: 100%;
+    padding: 32px;
+    border-top: 0.4px solid aliceblue;
+    position: fixed;
+    bottom: 0;
+}
+
+.texto-rodape{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
